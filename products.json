@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "prueba-1",
+    "description": "Esta es la descripcion de una prueba1",
+    "price": 150,
+    "thumbnail": "Without image",
+    "code": "AAA001",
+    "stock": 36
+  },
+  {
+    "id": 2,
+    "title": "prueba-2",
+    "description": "Esta es la descripcion de un prueba2",
+    "price": 205,
+    "thumbnail": "Without image",
+    "code": "AAA002",
+    "stock": 29
+  },
+  {
+    "id": 3,
+    "title": "prueba-3",
+    "description": "Esta es la descripcion de una prueba3",
+    "price": 168,
+    "thumbnail": "Without image",
+    "code": "AAA003",
+    "stock": 32
+  },
+  {
+    "id": 4,
+    "title": "prueba-4",
+    "description": "Esta es la descripcion de una prueba4",
+    "price": 150,
+    "thumbnail": "Without image",
+    "code": "AAA004",
+    "stock": 36
+  },
+  {
+    "id": 5,
+    "title": "prueba-5",
+    "description": "Esta es la descripcion de un prueba5",
+    "price": 205,
+    "thumbnail": "Without image",
+    "code": "AAA005",
+    "stock": 29
+  },
+  {
+    "id": 6,
+    "title": "prueba-6",
+    "description": "Esta es la descripcion de una prueba6",
+    "price": 168,
+    "thumbnail": "Without image",
+    "code": "AAA006",
+    "stock": 32
+  },
+  {
+    "id": 7,
+    "title": "prueba-7",
+    "description": "Esta es la descripcion de una prueba7",
+    "price": 150,
+    "thumbnail": "Without image",
+    "code": "AAA007",
+    "stock": 36
+  },
+  {
+    "id": 8,
+    "title": "prueba-8",
+    "description": "Esta es la descripcion de un prueba8",
+    "price": 205,
+    "thumbnail": "Without image",
+    "code": "AAA008",
+    "stock": 29
+  },
+  {
+    "id": 9,
+    "title": "prueba-9",
+    "description": "Esta es la descripcion de una prueba9",
+    "price": 168,
+    "thumbnail": "Without image",
+    "code": "AAA009",
+    "stock": 32
+  },
+  {
+    "id": 10,
+    "title": "prueba-10",
+    "description": "Esta es la descripcion de una prueba10",
+    "price": 150,
+    "thumbnail": "Without image",
+    "code": "AAA010",
+    "stock": 36
+  }
+]
