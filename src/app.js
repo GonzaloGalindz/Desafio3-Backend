@@ -14,7 +14,13 @@ app.get("/products", (req, res) => {
       const productManager = new ProductManager("../products.json");
       const products = productManager.getProducts();
 
-      res.status(200).send({ status: "success", data: products });
+      return res
+        .status(200)
+        .json({
+          status: "success",
+          msg: "te paso todos los productos",
+          data: products,
+        });
     } catch (error) {
       res.status(400).send(error);
     }
@@ -31,7 +37,11 @@ app.get("/products", (req, res) => {
         }
       }
 
-      res.status(200).send({ status: "success", data: products_limit });
+      return res.status(200).json({
+        status: "success",
+        msg: "te paso todos los productos filtrados",
+        data: products_limit,
+      });
     } catch (error) {
       res.status(400).send(error);
     }
@@ -45,7 +55,7 @@ app.get("/products/:pid", (req, res) => {
     const productManager = new ProductManager("../products.json");
     const product = productManager.getProductsById(parseInt(id));
 
-    res.status(200).send({ status: "success", data: product });
+    return res.status(200).json({ status: "success", data: product });
   } catch (error) {
     res.status(400).send(error);
   }
